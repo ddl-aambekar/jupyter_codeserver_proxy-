@@ -23,7 +23,7 @@ def setup_codeserver():
         'command': _codeserver_command,
         'timeout': 20,
         'launcher_entry': {
-            'title': 'VS Code IDE',
+            'title': 'VS Code IDE 2020',
             'icon_path': os.path.join(os.path.dirname(os.path.abspath(__file__)),
                                       'icons', 'vscode.svg')
         }
